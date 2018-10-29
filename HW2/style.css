@@ -1,0 +1,112 @@
+body {
+    width: 450px;
+    font: 13px "Comic Sans MS", cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+form label {
+    margin-left: -45px;
+    display: inline-block;
+    width: 105px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+textarea {
+    margin: -17px 0 5px 65px;
+}
+
+#privateEmail, #privateEmail ~ p {
+    width: auto;
+    margin-left: 65px;
+    display: inline-block;
+}
+
+#privateEmail ~ p {
+    margin: 0 0 0 85px;
+}
+
+#privateEmail ~ label {
+    width: auto;
+    margin: 0;
+}
+
+#experience {
+    width: 40px;
+}
+
+.dev-experience li input, .skills li input {
+    width: auto;
+    display: inline-block;
+    margin: 0 55px 0 0;
+}
+
+.dev-experience li label, .skills li label {
+    width: 250px;
+}
+
+.label {
+    width: auto;
+    margin-left: -45px;
+}
+
+select {
+    margin-left: -15px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button, .custom-file-upload {
+    background: none;
+    padding: 0 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.custom-file-upload {
+    margin-left: 0;
+}
+
+button {
+    margin: 15px;
+    float: right;
+}
+
+#cancel-button {
+    margin-top: 17px;
+    border: none;
+    box-shadow: none;
+}
+
+/*##########_______ styles for table __________############*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+th, .subheader {
+    white-space: nowrap;
+}
+
+th {
+    font-size: 25px;
+}
+
+tfoot td {
+    text-align: left;
+    font-size: 15px;
+}
